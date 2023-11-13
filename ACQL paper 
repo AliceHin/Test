@@ -5,21 +5,178 @@
 				<title>Sample Document Title</title>
 			</titleStmt>
 			<publicationStmt>
-				<p></p>
+				<p/>
 			</publicationStmt>
 			<sourceDesc sameAs="http://www.cwrc.ca">
 				<p>Created from original research by members of CWRC/CSÉC unless
 					otherwise noted.</p>
 			</sourceDesc>
 		</fileDesc>
-		<xenoData>
-			<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-			</rdf:RDF></xenoData></teiHeader>
+		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:fabio="https://purl.org/spar/fabio#" xmlns:bf="http://www.openlinksw.com/schemas/bif#" xmlns:cito="https://sparontologies.github.io/cito/current/cito.html#" xmlns:org="http://www.w3.org/ns/org#">
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20231113105401118",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-13T15:54:01.118Z",
+	"dcterms:modified": "2023-11-13T15:54:01.118Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AliceHin",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Hinchliffe"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20231113105401118#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20231113105401118#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/persName"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q1895752",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      
+        <rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/">
+          <![CDATA[{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"fabio": "https://purl.org/spar/fabio#",
+		"bf": "http://www.openlinksw.com/schemas/bif#",
+		"cito": "https://sparontologies.github.io/cito/current/cito.html#",
+		"org": "http://www.w3.org/ns/org#"
+	},
+	"id": "undefined?person_annotation_20231113105414913",
+	"type": "oa:Annotation",
+	"dcterms:created": "2023-11-13T15:54:14.913Z",
+	"dcterms:modified": "2023-11-13T15:54:14.913Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/AliceHin",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": "Alice Hinchliffe"
+	},
+	"oa:motivatedBy": "oa:identifying",
+	"oa:hasTarget": {
+		"@id": "undefined?person_annotation_20231113105414913#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://leaf-writer.leaf-vre.org",
+			"@type": "as:Application",
+			"rdfs:label": "LEAF-Writer",
+			"schema:softwareVersion": "3.2.2"
+		},
+		"oa:hasSelector": {
+			"@id": "undefined?person_annotation_20231113105414913#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/head/persName[2]"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NaturalPerson",
+		"@id": "http://www.wikidata.org/entity/Q7705610",
+		"dc:format": "text/plain"
+	},
+	"as:generator": {
+		"@id": "https://leaf-writer.leaf-vre.org",
+		"@type": "as:Application",
+		"rdfs:label": "LEAF-Writer",
+		"schema:url": "https://leaf-writer.lincsproject.ca/",
+		"schema:softwareVersion": "3.2.2"
+	}
+}]]>
+        </rdf:Description>
+      </rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div>
-				<head>Replace with your title.</head>
-				<p>Replace with your text.</p></div>
+				<head>"I am home among the displaced": Shoaling for Home in <persName key="Maria Campbell" ref="http://www.wikidata.org/entity/Q1895752" role="aut">Maria Campbell</persName>'s Halfbreed and <persName key="Tessa McWatt" ref="http://www.wikidata.org/entity/Q7705610" role="aut">Tessa McWatt</persName>'s Shame on Me: An Anatomy of Race and Belonging</head><byline>By <persName role="aut">Alice Hinchliffe</persName> </byline>
+				<p>Replace with your text.For this paper I followed Tiffany Lethabo King’s theorization of the shoal. She defines the shoal as  “the movement of the ocean from greater to shallower depths. It is not the shore; it is a formation before the shore or the offshore” (2). She writes that “a shoaling effect [is] a disruption in the movement and flow — of time and space reflected in and narrated by Western disciplinary formations and their seminal texts” (2). Finally, she claims to offer this space of the shoal “simultaneously land and sea to fracture this notion that Black diaspora studies is overdetermined by rootlessness and only metaphorized by water and to disrupt the idea that Indigenous studies is solely rooted and fixed in imaginaries of land as territory” (4). In this paper I bring together two seemingly disparate texts namely Maria Campbell’s Halfbreed  (originally published in 1973, I am using the 2019 edition with the passages that were removed from the earlier one) and Tessa McWatt’s Shame On Me: An Anatomy of Race and Belonging (2019). McWatt traces her experience of the diaspora through the movement of her ancestors through the water to the literal and metaphorical plantation. Campbell maps out her family’s and her own movements through the land we now call Canada. I identify moments of shoaling where water exists with the land, where Halfbreed connects to Shame on Me; I find points of contact, of friction between the texts that will hopefully open new spaces of engagement and resistance within theories of Indigeneity and the Black diaspora together. The shoals force ships to slow down, it is in this moment of slowing down, of disruption of the ship’s course and of settler colonial discourses that we can take the time to ask questions: what forms of colonial violence come forth to the surface when reading these women’s stories? How do their different narrative responses bring together Indigenous and diasporic theories in a rhizome of voices pushing back against the conquest of settler colonialism? What new spaces of meaning-making come about when we follow the shoals and slow down to listen to different voices? What new decolonial approaches can arise from the autobiographical narratives of women of colour? </p>
+				<p>I continue to follow Tiffany Lethabo King’s The Black Shoals to articulate my understanding of conquest and settler colonial violence. She identifies conquest as a historical phenomenon (slavery) which has made its way into ways of being to this day. She writes about the “day-to-day terror of conquest” molding the experience of living as a Black or Indigenous person in the wake of slavery and genocide (x). Throughout her work she identifies how genocidal violent conquest has evolved, manipulated by dominant white settler narratives of benevolent civilizing missions and peaceful cohabitation on a land, not stolen, but shared willingly. King posits “a new kind of speech” (21), articulating that “conquest as a grammar represents a form of Black and Native speech that contests the ways that White settler colonial studies attempts to constrain Black and Native thought and speech” (21). This understanding of colonization and conquest reveals an insidious form of violence, one that aims to contain Black and Indigenous voices by mediating and controlling the language in discussions of colonization in history, literature, academia, etc. Campbell and McWatt both participate in the making of King’s “new kind of speech.”  The shoaling moments I identify through their experiences with systemic racism and colonial violence disrupt the discourses of white settler colonialism and open creative spaces of engagement to create a new language to understand and articulate the violent legacy of conquest in modern days. </p>
+				<p>They say that the winners write history. Both Campbell and McWatt are painfully aware of that fact but deal with it in different ways. Campbell re-writes a historical account of the end of the nineteenth century. Starting in the eighteen-sixties her history focuses on Halfbreed peoples and their movements; how they were made squatters on their own lands because settlers and the railroad made it to them, how the Canadian government ignored them multiple times thus putting them in a position in which the only response left was forming an armed rebellion, the Riel Rebellion. She creates a contrast between the vague explanation of what happened in history books that “say that the Halfbreeds were defeated at Batoche in 1884” (4) with specific information about how that defeat actually happened. She uses precise numbers to show how unbalanced the conflict was as “eight thousand troops, five hundred NWMP and white volunteers from throughout the Territories, plus a Gatling gun, arrived to stop Riel, Dumont and one hundred and fifty Halfbreeds” (6). The only other records in history books are about what happened to the leaders of the revolution, but Campbell actually writes about what happened to her people. By opening her book this way she reclaims her history and inscribes her own story in a historical narrative continuity. In a somewhat similar fashion, McWatt uses history to situate herself and her family within a larger narrative. She uses the model of a sugar plantation during the Slave Trade to delineate the still-existing racist hierarchy of white supremacy. She compares the plantation to“a modern factory: a workplace of unequals, a site upon which near magical technology would turn cane to crystals in an export enterprise that would yield its owners millions of pounds or francs or guilders. The plantation’s wealth relied on its structure being by necessity racist. Like a predator and its victim, richness and poverty remain in a state of perpetual chase. While slavery was abolished, the structure that produced it still flourishes” (49, my emphasis). By using a modern comparison McWatt emphasizes the difference between narrative and structure. According to history, the plantation house is no more, slavery was abolished; however, when we separate the structure of the plantation from its moment in history, the racist structure stands on its own. In choosing to use an image with roots in history she grounds her narrative within the legacy of slavery, and re-connects modern-day systemic racism to its historical past. </p>
+				<p>She also identifies that the gaps in global historical narratives create speculative spaces (76) within personal histories. Her personal ancestral archive is incomplete so she looks to historical ones to find answers running into the issue that the narratives she is to find are ones written by slave traders identifying her ancestor as another body, another number in a trading process. The narratives she does not find, the gaps in records become spaces of erasure that “they cause some people to disappear” (76). In this way McWatt identifies a tension at the heart of history: a narrative in which she wants to find herself and her personal history but cannot because it is an incomplete story. Similarly to what Campbell is doing with her memoir, McWatt uses the speculative spaces, the gaps in the records to re-integrate herself into a narrative continuity, to participate in making a more complete history. Indigenous children and children of the diaspora are taught whitewashed re-written historical narratives in which their ancestors appear only to disappear. Settler colonial educational infrastructures (aka residential schools) were genocidal tools both literally and culturally. Campbell recounts her own experience in one such establishment. Of her time in residential school Campbell  remembers that “we prayed endlessly, but I cannot recall ever doing much reading or school-work” (48). The only specific memory she writes about is being punished for speaking Cree instead of French or English, an offence for which she was “pushed into a small closet with no windows or light, and locked in for what seemed like hours” (48). The language she uses to discuss her memories is bleak. She writes about “feeling lonely and frightened” (48), about the unpleasant smell of the place, about being “almost paralyzed with fright” after being punished. Campbell was forced into a system that made her into a radical racialized and isolated “other.”  Forbidding the use of her native language immediately puts her in a position in which she is different, in which who she is does not fit. The few memories Campbell actually has of her time in residential school illustrates that rather than being an educational establishment this model of education was a violent and purely religious one, whose sole function was to remove Indigenous children from their communities and try to assimilate them into the dominant white settler culture. Radical othering through education is a form of conquest, the removal of a child from their family and culture is a form of settler colonial violence. Locking a seven year-old child into a closet for speaking her native language is an act of violent conquest. The school experiences that Campbell describes echoes Tessa McWatt’s experience as recounted in the “Experiment” part of her book. I am not suggesting a comparison between their experiences with education, the stories are very much their own, but when connected they become a shoaling moment creating a space to slow down and examine and disrupt the mechanisms of racism at work within multiple educational models. McWatt writes about an incident that occurred when she was eight years old. A classmate pointed to her when asked to define the word “negro,” something her teacher promptly attempted to “save” her from by asking her the chapter’s eponymous question: “what are you?” (14). McWatt identifies this as “the moment I became a writer” (15), the moment in which she realized “the power of words” (15) and how they could change her. She was not able to articulate it at the time, but her retrospective account and deconstruction of this incident act as a way to take back the power of those words uttered when  she was too young to talk back. In this short section she identifies the violence of language and reveals the discourse of racism in the classroom. She emphasizes the teacher’s nervousness around racialized terminology. McWatt attributes good intentions to her teacher as she “tries to rescue me from something she herself sees as a slur, a word that is fine in a book but not in person” (14). The juxtaposition of her teacher’s protective movement and the racism behind that same movement emphasizes that the problem does not only lie at the individual level but at the systemic level. What happens next furthers McWatt’s alienation in this moment; “no, Tessa’s something else” ( my emphasis, 14). The use of the word “something” along with “what” dehumanizes the child she was, reducing her to a racialized other.  She compares the word “Negro” to “species” thus highlighting how different she is made to be; no longer someone but something, not who but what.   The main phenomenon operating in both Campbell’s and McWatt’s accounts of their moments of education is a process of dehumanizing alienation. In their own ways both educational systems make Indigeneity and Blackness hyper-visible only to control it or to erase it again. Rinaldo Walcott’s concept of invisibility and hyper-visibility of Black bodies works in both scenarios. In Black Like Who?: Writing Black Canada, Walcott identifies a “racialized discourse, fostered by and emanating out of slavery” which is “continually fashioned through an ideology that suggests that black bodies can and must be abused, misused, regulated, disciplined and over-policed” (45). The punishment that Campbell receives for speaking Cree makes her hyper-visible for her racial difference, but only to repress her identity and render it invisible. The act of locking her into a closet actually makes her invisible. Residential schools as establishments make Indigeneity hyper-visible by solely targeting Indigenous children only to abuse them and make their Indigeneity invisible. In her classroom, McWatt becomes hyper-visible as a Black girl, only to be rendered invisible by her teacher who tries to disassociate her from what she considers a slur. Under the pressure McWatt actually tries to render herself invisible by folding her arms on her desk and hiding her head, an act that works since when she looks back up she is alone in the classroom. After making her hyper-visible, pointing out her difference, McWatt is being made invisible as the class moves forward without addressing the racism at the heart of the incident. Campbell’s relationship to place, to the land and to her family does fit within a paradigm of Indigenous relationality, a special attachment to place and ancestry. The introduction to the 2019 edition opens with a relationship between place and ancestry, placing Campbell in the “grandmother place” (Anderson vi) and talking about the places that she has inhabited and created. Campbell herself begins her book by thinking about place as she writes about “going home” (2) being impossible because “like me the land had changed, my people were gone” (2). She compares herself to the land, and juxtaposes the absence of her people as a change in the land thus immediately establishing a mutual relationship between herself, the land, and her people. When she goes home towards the end of the book she expresses this feeling again, trying to find something familiar in the landscape of her childhood, “but something had changed. The countryside had changed too. Fires had swept through parts of it, often deliberately set by men out of work and money. Welfare was cut off in the summer months, but the Forestry Department paid wages for fighting fires” (179). Specifying why men set fires allows her to re-frame the changes she finds. She identifies the catalyst for criminality and destruction of the land as being a systemic structure that puts its racialized minorities in impossible positions for survival. Coming back to the place of her childhood, the disorientation and displacement she experiences are the direct results of settler colonial violence on the land. Shame on Me is also preoccupied with place and space, but it begins with a hypothesis of movement; “a young Chinese woman, so young, nearly still a girl, runs through a field of sugar cane” (3), “my Indian ancestor … thin, fragile from the 112-day journey by ship” (4), “my Arawak ancestor … paddles past a giant otter” (5), “my Portuguese ancestor, arrives among the first free immigrants to the colony in 1835” (6), “there is a rumour about my French ancestor … when he arrived from France” (7), “my African great-grandmother is lost among trees … I reach out to take her by the hand” (8), “my Scottish great-great-great grandmother takes her last breath in East Lothian” (9). The opening hypothesis traces an ancestry in motion, one not linked to place but moving through a diasporic sense of global (dis)placement. The list of her ancestors delineates what Marlene NourbeSe Philip calls “a genealogy of resistance,” “a genealogy snaking its way through History, leaving the tracings and markings of a larger one: the genealogy of moving, seeking work, and to better one’s self” (Philip 22). Through the book McWatt travels around the world “to what I thought were parts of myself” (McWatt 205) while waiting for DNA ancestry test results which end up describing her “body in regions” as “all these little bits of me” (205) thus locating and dislocating her identity simultaneously. In this (dis)location of herself, in identifying herself as “the result of movements of bodies on ships” (18), as a body at the intersection of space, place, and time;  McWatt comes to the conclusion that “identification is not identity” (196), that identity is fluid moving “back and forth across the Atlantic, back and forth between art and institution, between screen and page, between … past and … present” (196). McWatt essentially comes to articulate her own self as a shoal, a liminal space of fluidity, a geography in motion. In order to get to this conclusion of fluidity, McWatt first has to identify a rupture, one that she identifies through her movements. She writes that “any kind of travel can be disorienting for a body, but air travel heightens the rupture, displacement, disorientation” (196). There is a similar notion of rupture and dislocation on Maria Campbell’s movements as she makes her way through Canada. Each stop Campbell makes is a break that changes who she is; a daughter and sister, a mother, a sex worker, an addict, a Halfbreed…Her story is full of ruptures in the self caused by the hierarchy of the plantation, the violence of conquest that needs the self to be easily labelled, but most importantly broken down; “to resist that division is to maintain hope in discovering a true self” (McWatt 197). It is in the movements, places and spaces that both Campbell and McWatt go through, create, and inhabit that I find the shoals, the spaces of radical care and resistance that forcefully slow down the ship and disrupt the violence of white settler systems and discourses. Campbell has actually established shelters for Indigenous women and children in Canada. She has literally created places. Kim Anderson calls Campbell’s home “a Metis homeland” (vii) and ties the place to its historical presence. Time has passed but it is still the land on which “Gabriel Dumont and his wife, Madeleine, once operated Gabriel’s Crossing” (vii), the place remains. But it is simultaneously a place of movement where “Indigenous leaders, storytellers, musicians, artists, activists, and scholars have criss-crossed, coming and going to replenish and engage as they make their mark on the world” (vii). Campbell has created shoals of her own, places constantly in motion, which in turn create spaces of new meaning and resistance. Both Halfbreed and Shame On Me as texts are spaces of resistance in and of themselves, revealing the mechanisms of the plantation hierarchy, of a racist colonial system; writing their own selves instead of letting a legacy of slavery and violence write over them in white. Campbell and McWatt’s writing is a result of their movement, both bodies in motion to survive, to exist in the space in-between, to exist in the shoals. Not a status Indian, but not a settler either. Not dark enough, but still not white. Campbell and McWatt embody King’s concept of the shoals, liminal spaces of disruption and resistance, spaces of radical care to create “a new language of belonging”, technicolour spaces in the white-washed structures of Turtle Island.</p></div>
 		</body>
 	</text>
 </TEI>
